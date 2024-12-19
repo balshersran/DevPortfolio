@@ -1,11 +1,12 @@
 import AboutMe from "./AboutMe";
+import Contact from "./Contact";
 import Skills from "./Skills";
 
 export default function Home() {
   return (
     <>
       <div>
-        <h1>Balsher Sran</h1>
+        <h1>Hey, I'm Balsher Sran!</h1>
         <p>
           Welcome to my Dev Portfolio site! Feel free to navigate the site. This
           is a site to showcase the potential I have to offer. It's a static
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div>
         <Skills />
+      </div>
+      <div>
+        <Contact />
       </div>
     </>
   );
