@@ -2,39 +2,39 @@ export default function Contact() {
   return (
     <>
       {/* Don't forget to fill in 'action' to send contact info to email */}
-      <div className="container mx-auto p-4">
-        <form className="max-w-md mx-auto">
-          <div className="mb-4">
+      <div className="form-container">
+        <form className="mb3">
+          <div className="form-name-container">
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-gray-700"
+              className="form-name-label"
             >
               Name
             </label>
             <input
               type="text"
               id="name"
-              className="mt-1 p-2 border rounded-md w-full"
+              className="form-name-input"
             />
           </div>
 
-          <div className="mb-4">
+          <div className="form-email-container">
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-gray-700"
+              className="form-email-label"
             >
               Email
             </label>
             <input
               type="email"
               id="email"
-              className="mt-1 p-2 border rounded-md w-full"
+              className="form-email-input"
             />
           </div>
 
           <button
             type="submit"
-            className="bg-blue-500 text-white p-2 rounded-md"
+            className="form-submit-btn"
           >
             Submit
           </button>
@@ -43,3 +43,4 @@ export default function Contact() {
     </>
   );
 }
+
